@@ -1,39 +1,3 @@
-//import javax.swing.*;
-//import java.awt.*;
-//
-//public class ReviewTickets extends JFrame {
-//    private SystemManager systemManager = new SystemManager();
-//
-//    public ReviewTickets() {
-//        setTitle("Review Tickets");
-//        setSize(500, 400);
-//        setLayout(new BorderLayout());
-//
-//        JTextArea ticketArea = new JTextArea();
-//        ticketArea.setEditable(false);
-//
-//        StringBuilder tickets = new StringBuilder();
-//        for (Reservation reservation : systemManager.getReservations()) {
-//            tickets.append("Reservation ID: ").append(reservation.getReservationId()).append("\n");
-//            tickets.append("Passenger: ").append(reservation.getPassenger().getName()).append("\n");
-//            tickets.append("Train: ").append(reservation.getTrain().getType()).append("\n");
-//            tickets.append("Tickets: ").append(reservation.getNumberOfTickets()).append("\n");
-//            tickets.append("Start Station: ").append(reservation.getStartStation()).append("\n");
-//            tickets.append("End Station: ").append(reservation.getEndStation()).append("\n");
-//            tickets.append("-------------------------------\n");
-//        }
-//
-//        ticketArea.setText(tickets.toString());
-//
-//        JScrollPane scrollPane = new JScrollPane(ticketArea);
-//        add(scrollPane, BorderLayout.CENTER);
-//
-//        setLocationRelativeTo(null);
-//        setVisible(true);
-//    }
-//}
-
-////////////////////////////////The Last Version////////////////////////////////////
 import javax.swing.*;
 import java.awt.*;
 import java.sql.Connection;
