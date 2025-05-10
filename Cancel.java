@@ -1,37 +1,3 @@
-//import javax.swing.*;
-//import java.awt.*;
-//
-//public class Cancel extends JFrame {
-//    private SystemManager systemManager = new SystemManager();
-//
-//    public Cancel() {
-//        setTitle("Cancel Reservation");
-//        setSize(300, 200);
-//        setLayout(new GridLayout(3, 1, 10, 10));
-//
-//        JLabel pnrLabel = new JLabel("Enter Reservation ID:");
-//        JTextField pnrField = new JTextField();
-//        JButton cancelButton = new JButton("Cancel Reservation");
-//
-//        cancelButton.addActionListener(e -> {
-//            int reservationId = Integer.parseInt(pnrField.getText());
-//            if (systemManager.cancelReservation(reservationId)) {
-//                JOptionPane.showMessageDialog(this, "Reservation canceled successfully!");
-//            } else {
-//                JOptionPane.showMessageDialog(this, "Reservation not found!");
-//            }
-//        });
-//
-//        add(pnrLabel);
-//        add(pnrField);
-//        add(cancelButton);
-//
-//        setLocationRelativeTo(null);
-//        setVisible(true);
-//    }
-//}
-
-
 ////////////////////////////////The Last Version////////////////////////////////////
 import javax.swing.*;
 import java.awt.*;
